@@ -23,7 +23,7 @@ assert.strictEqual(capitalizeFirstLetters('i am learning TDD'), 'I Am Learning T
 assert.strictEqual(capitalizeFirstLetters('oui'), 'Oui');
 
 // // Check that capitalizeFirstLetters transforms empty sentence correctly
-// assert.strictEqual(capitalizeFirstLetters(''), '');
+assert.strictEqual(capitalizeFirstLetters(''), '');
 
 console.log(capitalizeFirstLetters('i am learning TDD'));
 console.log(capitalizeFirstLetters('oui'));
