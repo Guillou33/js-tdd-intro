@@ -4,6 +4,10 @@ class Rectangle {
       this.a = a;
       this.b = b;
     }
+
+    isRightSizes(){
+        return this.a < 1 || this.b < 1 ? false : true;
+    }
   
     isSquare() {
         if(this.a === this.b){
